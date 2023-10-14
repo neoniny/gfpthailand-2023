@@ -53,5 +53,6 @@ footer {
     text-align: center;
     height: 500px;
     display: block;
-    background-color: #B0332F; 
+    background-color: #C02227; 
+    background-image: url('assets/svg/bg-red.svg');
 }
