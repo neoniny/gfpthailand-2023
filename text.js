@@ -3,14 +3,14 @@ const menu_en = ["home page","about us","our product","our service","contact us"
 
 // ABOUT SECTION
 const about_h = ["เกี่ยวกับเรา", "About Us"]
-const about_h1 = ["ส่งต่อความเป็น Local สู่ความเป็นสากล",""]
+const about_h1 = ["ส่งต่อความเป็น LOCAL สู่ความเป็นสากล",""]
 const about_p1 = "ตั้งแต่ปี 2015 บริษัทแกรนด์ฟูดโปรเซสซิ่ง (ประเทศไทย) จำกัด หรือ GFP ได้พัฒนาและเพิ่มมูลค่าวัตถุดิบในชุมชน ให้เป็นแบรนด์น้ำผลไม้คุณภาพเกรดพรีเมี่ยม ส่งต่อคุณค่าทางโภชนาการที่ตอบโจทย์ความต้องการของผู้บริโภคทั้งในประเทศและต่างประเทศ  และมีความมุ่งมั่นที่จะพัฒนาอย่างไม่หยุดยั้ง นอกจากนี้ GFP ยังได้เป็นส่วนหนึ่งที่ทำให้เกษตรกรมีชีวิตความเป็นอยู่ที่ดี ส่งเสริมการใช้วัตถุดิบและแรงงานภายในชุมชน ภายใต้กระบวนการแปรรูปที่ไม่ส่งผลกระทบต่อสิ่งแวดล้อม เพื่อความยั่งยืนของสังคมโลกของเรา";
 const about_h2 = "From Local to Global";
 const about_p2 = "ที่ GFP เราทุกคนมีความตั้งใจที่จะส่งต่อผัก ผลไม้ และสมุนไพรที่มีคุณค่าจากเกษตรกรท้องถิ่นไทยให้กับผู้บริโภคทั่วโลกได้รู้จัก โดยพัฒนาผลิตผลต่าง ๆ และจับวางให้อยู่ในรูปแบบใหม่ที่เข้าถึงได้ง่าย สะดวก และเข้ากับยุคสมัยที่เปลี่ยนไป โดยไม่ทิ้งอัตลักษณ์ดั้งเดิม รักษารสชาติ คุณภาพ และคุณประโยชน์จากธรรมชาติไว้อย่างดีที่สุด เพื่อสุขภาพกายและสุขภาพใจของทุกคน";
 const about_h3 = "Fresh Raw Material is Carefully Selected";
 const about_p3 = "เรามีความพิถีพิถันในการคัดเลือกวัตถุดิบที่สะอาด สดใหม่ สู่กระบวนการผลิตที่ได้มาตรฐานในระดับสากล<br>Codex GMP, HACCP, HALAL, KOSHER, GI, USFDA และไม่หยุดที่จะพัฒนาตัวเองเพื่อก้าวไปสู่มาตรฐาน FSSC ในอนาคตอันใกล้";
 const why_us_h = "Why us";
-const why_us_l = "<ul><li>Wellness, Healthy, Vegan, Ketogenesis<br>เป็นเครื่องดื่มทางเลือกสำหรับคนรักสุขภาพ สายวีแกน หรือผู้ที่กินคีโต</li><li>Premium Products<br>เป็นของขวัญพรีเมียมที่สร้างความประทับใจทั้งกับผู้ให้และผู้รับ</li><li>Top of Mind<br>แบรนด์น้ำผลไม้สำหรับนักท่องเที่ยวในประเทศและนักท่องเที่ยวต่างชาติ</li><li>No.1 Minibar Juice<br>น้ำผลไม้สำหรับมินิบาร์ เครื่องดื่มต้อนรับและเครื่องดื่ม Mixer ให้กับโรงแรมชั้นนำทั่วประเทศ</li></ul>";
+const why_us_l = "<ul><li>&centerdot; Wellness, Healthy, Vegan, Ketogenesis<br>เป็นเครื่องดื่มทางเลือกสำหรับคนรักสุขภาพ สายวีแกน หรือผู้ที่กินคีโต</li><li>&centerdot; Premium Products<br>เป็นของขวัญพรีเมียมที่สร้างความประทับใจทั้งกับผู้ให้และผู้รับ</li><li>&centerdot; Top of Mind<br>แบรนด์น้ำผลไม้สำหรับนักท่องเที่ยวในประเทศและนักท่องเที่ยวต่างชาติ</li><li>&centerdot; No.1 Minibar Juice<br>น้ำผลไม้สำหรับมินิบาร์ เครื่องดื่มต้อนรับและเครื่องดื่ม Mixer ให้กับโรงแรมชั้นนำทั่วประเทศ</li></ul>";
 const why_us_p = "นอกจากนี้เรายังได้ส่งออกน้ำผลไม้ไปยังหลากหลายประเทศ ไม่ว่าจะเป็น ญี่ปุ่น เกาหลี มาเลซีย สิงคโปร์ และดูไบ เป็นต้น เพื่อแสดงถึงอัตลักษณ์และความเป็นไทยไว้อย่างสวยงาม"
 
 // OUR PRODUCT SECTION
@@ -152,11 +152,11 @@ document.getElementById("product_herb_h").textContent = product_herb_h[0];
 
 document.getElementById("section-service-h").textContent = service_h[0];
 document.getElementById("section-service-p").innerHTML = service_p;
-document.getElementById("section-service-s1-h").innerHTML = service_s1_h;
+document.getElementById("section-service-s1-h").innerHTML = service_s1_h.toUpperCase();
 document.getElementById("section-service-s1-p").innerHTML = service_s1_p;
-document.getElementById("section-service-s2-h").innerHTML = service_s2_h;
+document.getElementById("section-service-s2-h").innerHTML = service_s2_h.toUpperCase();
 document.getElementById("section-service-s2-p").innerHTML = service_s2_p;
-document.getElementById("section-service-s3-h").innerHTML = service_s3_h;
+document.getElementById("section-service-s3-h").innerHTML = service_s3_h.toUpperCase();
 document.getElementById("section-service-s3-p").innerHTML = service_s3_p;
 document.getElementById("section-oem-h").innerHTML = oem_h[0];
 document.getElementById("section-oem-p").innerHTML = oem_p[0];

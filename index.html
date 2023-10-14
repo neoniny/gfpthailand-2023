@@ -27,6 +27,7 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
   <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+  
 </head>
 
 <body>
@@ -56,14 +57,14 @@
   <main id="main">
 
     <!-- ======= About Us Section ======= -->
-    <section id="about" class="about sections-bg">
+    <section id="about" class="about sections-bg-yellow">
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
             <h2 id="section-about-h1"></h2>
         </div>
 
-        <div class="row gy-4">
+        <div class="row gy-4 section-paragraph">
           <div class="col-lg-6">
             <h3>รูป1</h3>
           </div>
@@ -73,13 +74,13 @@
             </div>
           </div>
         </div>
-        <div class="row gy-4">
+        <div class="row gy-4 section-paragraph">
             <div class="col-lg-6">
               <h3>รูป2</h3>
             </div>
             <div class="col-lg-6">
               <div class="content ps-0 ps-lg-5">
-                <h4 id="section-about-h2"></h4>
+                <h3 id="section-about-h2"></h3>
                 <p id="section-about-p2"></p>
               </div>
             </div>
@@ -98,7 +99,7 @@
             </div>
             <div class="col-lg-6">
               <div class="content ps-0 ps-lg-5">
-                <h4 id="section-why-us-h"></h4>
+                <h2 id="section-why-us-h"></h2>
                 <p id="section-why-us-l"></p>
                 <p id="section-why-us-p"></p>
               </div>
@@ -109,29 +110,29 @@
     </section><!-- End About Us Section -->
 
     <!-- ======= Product Section ======= -->
-    <section id="product">
+    <section id="product" class="product">
       <div class="container" data-aos="fade-up">
         <div class="section-header">
             <h2 id="section-product-h"></h2>
         </div>
 
-        <div class="row gy-4 align-items-center">
-
-          <div class="col-lg-3">
-            <h3 id="product_lily_h"></h3>
+        <div class="row gy-4">
+          <div class="col-sm-3 col-lg-3 text-center">
+            <img src="assets/img/product1.png" class="img-fluid" alt="">
+            <button id="product_lily_h"></button>
           </div>
-          <div class="col-lg-3">
-            <h3 id="product_kuru_h"></h3>
+          <div class="col-sm-3 col-lg-3 text-center">
+            <img src="assets/img/product1.png" class="img-fluid" alt="">
+            <button id="product_kuru_h"></button>
           </div>
-          <div class="col-lg-3">
-            <h3 id="product_tharn_h"></h3>
+          <div class="col-sm-3 col-lg-3 text-center">
+            <img src="assets/img/product1.png" class="img-fluid" alt="">
+            <button id="product_tharn_h"></button>
           </div>
-          <div class="col-lg-3">
-            <h3 id="product_herb_h"></h3>
+          <div class="col-sm-3 col-lg-3 text-center">
+            <img src="assets/img/product1.png" class="img-fluid" alt="">
+            <button id="product_herb_h"></button>
           </div>
-
-          <div class="col-lg-6"></div>
-
         </div>
 
       </div>
@@ -175,36 +176,40 @@
             <p id="section-service-p"></p>
         </div>
 
-        <div class="row gy-4" data-aos="fade-up" data-aos-delay="100">
-
-          <div class="col-lg-4 col-md-6">
-            <div class="service-item  position-relative">
+        <div class="row gy-4 desktop-display" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <div class="service-item  position-relative text-center">
               <img src="assets/img/oem1.png" class="img-fluid" alt="">
-                <div>STEP 1</div>
+                <button>STEP 1</button>
                 <h3 id="section-service-s1-h"></h3>
                 <p id="section-service-s1-p"></p>
             </div>
           </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6">
-            <div class="service-item position-relative">
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <div class="service-item position-relative text-center">
               <img src="assets/img/oem2.png" class="img-fluid" alt="">
-                <div>STEP 2</div>
+                <button>STEP 2</button>
                 <h3 id="section-service-s2-h"></h3>
                 <p id="section-service-s2-p"></p>
             </div>
           </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6">
-            <div class="service-item position-relative">
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <div class="service-item position-relative text-center">
               <img src="assets/img/oem3.png" class="img-fluid" alt="">
-                <div>STEP 3</div>
+                <button>STEP 3</button>
                 <h3 id="section-service-s3-h"></h3>
                 <p id="section-service-s3-p"></p>
             </div>
           </div><!-- End Service Item -->
         </div>
-
+        
+        <div class="row gy-4 mobile-display" data-aos="fade-up" data-aos-delay="100">
+          <div class="mobile-display">
+            <span><img src="assets/img/oem1.png"></span>
+            <span><img src="assets/img/oem2.png"></span>
+            <span><img src="assets/img/oem3.png"></span>
+          </div><!-- End Service Item -->
+        </div>
       </div>
     </section><!-- End Our Services Section -->
 
