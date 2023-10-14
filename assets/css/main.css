@@ -25,7 +25,7 @@
 /* Colors */
 :root {
   --color-default: #222222;
-  --color-primary: #B0332F;
+  --color-primary: #C02227;
   --color-secondary: #f85a40;
 }
 
@@ -102,6 +102,13 @@ section {
 .section-header p {
   margin-bottom: 0;
   color: #6f6f6f;
+}
+
+/* Aun edit sections-bg secondary */
+.sections-bg-yellow {
+  background-color: #FFF6EB;
+  background: url("../img/bg_yellow.png") no-repeat top;
+  background-size: cover;
 }
 
 /*--------------------------------------------------------------
@@ -938,12 +945,12 @@ section {
 # Our Services Section
 --------------------------------------------------------------*/
 .services {
-  padding: 60px 0;
+  padding: 200px 0;
 }
 
 .services .service-item {
-  padding: 40px;
-  background: #fff;
+  /* padding: 40px;
+  background: #fff; */
   height: 100%;
   border-radius: 10px;
 }
@@ -2582,8 +2589,10 @@ section {
 --------------------------------------------------------------*/
 .footer {
   font-size: 14px;
-  background-color: var(--color-primary);
-  padding: 50px 0;
+  background-color: #fff;
+  background: url('../svg/bg-red.svg') no-repeat top;
+  background-size: cover;
+  padding: 150px 0;
   color: white;
 }
 

@@ -30,6 +30,11 @@ const service_s2_p = "ด้วยประสบการณ์และคว�
 const service_s3_h = "Delivery"
 const service_s3_p = "GFP ยังให้บริการด้านโลจิสติกส์ และบริการด้านคลังสินค้าที่เชื่อถือได้อีกด้วย"
 
+// OEM
+const oem_h = ["พัฒนาสินค้าให้ตรงกับความต้องการของคุณ"]
+const oem_p = ["บริการรับผลิตเครื่องดื่ม-น้ำผลไม้ ในแบรนด์ของคุณ (OEM)"]
+const oem_l = ["<ul><li>น้ำแร่ธรรมชาติ</li><li>น้ำผลไม้<li>เครื่องดื่มชา กาแฟ</li><li>เครื่องดื่มฟังก์ชั่นและชอตสมุนไพร</li><li>น้ำนมธัญพืช</li></ul>"]
+
 // CONTACT US SECTION
 const contact_h = ["ติดต่อเรา","Contact Us"]
 const address = ["บริษัท แกรนด์ฟูดโปรเซสซิ่ง (ประเทศไทย) จำกัด<br>33/3 หมู่ที่ 6 ตำบล คลองน้ำเค็ม อำเภอ แหลมสิงห์ จังหวัด จันทบุรี 22190 ประเทศไทย"]
@@ -153,6 +158,9 @@ document.getElementById("section-service-s2-h").innerHTML = service_s2_h;
 document.getElementById("section-service-s2-p").innerHTML = service_s2_p;
 document.getElementById("section-service-s3-h").innerHTML = service_s3_h;
 document.getElementById("section-service-s3-p").innerHTML = service_s3_p;
+document.getElementById("section-oem-h").innerHTML = oem_h[0];
+document.getElementById("section-oem-p").innerHTML = oem_p[0];
+document.getElementById("section-oem-l").innerHTML = oem_l[0];
 
 document.getElementById("menu-about").textContent = about_h[0];
 document.getElementById("menu-product").textContent = product_h[0];
