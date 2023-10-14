@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1035.25 480.2">
+  <defs>
+    <style>
+      .cls-1 {
+        filter: url(#drop-shadow-2);
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2, .cls-12, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        filter: url(#drop-shadow-1);
+      }
+
+      .cls-3 {
+        font-size: 81.31px;
+      }
+
+      .cls-3, .cls-4, .cls-13 {
+        font-family: DBHelvethaicaX-67MedCond, 'DB Helvethaica X';
+      }
+
+      .cls-14 {
+        font-size: 35px;
+      }
+
+      .cls-15 {
+        font-size: 50px;
+      }
+
+      .cls-12 {
+        fill: #54c7db;
+        filter: url(#drop-shadow-10);
+      }
+
+      .cls-16 {
+        fill: #353133;
+        font-size: 45px;
+      }
+
+      .cls-16, .cls-17 {
+        font-family: DBHelvethaicaX-57Cond, 'DB Helvethaica X';
+      }
+
+      .cls-4 {
+        font-size: 116.57px;
+      }
+
+      .cls-17 {
+        fill: #231f20;
+      }
+
+      .cls-13 {
+        fill: #3c7391;
+        font-size: 100px;
+      }
+
+      .cls-5 {
+        filter: url(#drop-shadow-4);
+      }
+
+      .cls-6 {
+        filter: url(#drop-shadow-5);
+      }
+
+      .cls-7 {
+        filter: url(#drop-shadow-7);
+      }
+
+      .cls-8 {
+        filter: url(#drop-shadow-6);
+      }
+
+      .cls-9 {
+        filter: url(#drop-shadow-8);
+      }
+
+      .cls-10 {
+        filter: url(#drop-shadow-3);
+      }
+
+      .cls-11 {
+        filter: url(#drop-shadow-9);
+      }
+    </style>
+    <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="2"/>
+      <feGaussianBlur result="blur" stdDeviation="5"/>
+      <feFlood flood-color="#000" flood-opacity=".3"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-2" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="2"/>
+      <feGaussianBlur result="blur-2" stdDeviation="5"/>
+      <feFlood flood-color="#000" flood-opacity=".3"/>
+      <feComposite in2="blur-2" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-3" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="2"/>
+      <feGaussianBlur result="blur-3" stdDeviation="5"/>
+      <feFlood flood-color="#000" flood-opacity=".3"/>
+      <feComposite in2="blur-3" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-4" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="2"/>
+      <feGaussianBlur result="blur-4" stdDeviation="5"/>
+      <feFlood flood-color="#000" flood-opacity=".3"/>
+      <feComposite in2="blur-4" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-5" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="2"/>
+      <feGaussianBlur result="blur-5" stdDeviation="5"/>
+      <feFlood flood-color="#000" flood-opacity=".3"/>
+      <feComposite in2="blur-5" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-6" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="2"/>
+      <feGaussianBlur result="blur-6" stdDeviation="5"/>
+      <feFlood flood-color="#000" flood-opacity=".3"/>
+      <feComposite in2="blur-6" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-7" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="2"/>
+      <feGaussianBlur result="blur-7" stdDeviation="5"/>
+      <feFlood flood-color="#000" flood-opacity=".3"/>
+      <feComposite in2="blur-7" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-8" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="2"/>
+      <feGaussianBlur result="blur-8" stdDeviation="5"/>
+      <feFlood flood-color="#000" flood-opacity=".3"/>
+      <feComposite in2="blur-8" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-9" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="2"/>
+      <feGaussianBlur result="blur-9" stdDeviation="5"/>
+      <feFlood flood-color="#000" flood-opacity=".3"/>
+      <feComposite in2="blur-9" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-10" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="2"/>
+      <feGaussianBlur result="blur-10" stdDeviation="5"/>
+      <feFlood flood-color="#000" flood-opacity=".3"/>
+      <feComposite in2="blur-10" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Background">
+    <g>
+      <text class="cls-16" transform="translate(152.32 465.04)"><tspan x="0" y="0" xml:space="preserve">350 ml  |  500 ml</tspan></text>
+      <text class="cls-16" transform="translate(0 463.39)"><tspan x="0" y="0">ปริมาณ :</tspan></text>
+    </g>
+    <text class="cls-13" transform="translate(0 75.5)"><tspan x="0" y="0">ปริมาณแร่ธาตุ</tspan></text>
+    <g>
+      <g>
+        <path class="cls-2" d="m412.91,141.48c-10.36-9.29-30.51-27.67-34.82-33.82-11.44,11.44-22.45,23.36-34.84,33.81-10.26,8.66-18.58,17.98-22.84,31-1.99,6.08-2.99,12.47-2.99,18.87,0,33.99,27.96,61.46,62.13,60.65,32.59-.77,59-27.66,59.21-60.26.13-19.76-9.2-37.34-23.72-48.51-.73-.56-1.44-1.13-2.13-1.75Z"/>
+        <text class="cls-17" transform="translate(363.46 179.84)"><tspan class="cls-14"><tspan x="0" y="0">PH</tspan></tspan><tspan class="cls-15"><tspan x="6.5" y="37.17">7</tspan></tspan></text>
+      </g>
+      <g>
+        <path class="cls-1" d="m557.49,141.48c-10.36-9.29-30.51-27.67-34.82-33.82-11.44,11.44-22.45,23.36-34.84,33.81-10.26,8.66-18.58,17.98-22.84,31-1.99,6.08-2.99,12.47-2.99,18.87,0,33.99,27.96,61.46,62.13,60.65,32.59-.77,59-27.66,59.21-60.26.13-19.76-9.2-37.34-23.72-48.51-.73-.56-1.44-1.13-2.13-1.75Z"/>
+        <text class="cls-17" transform="translate(481.72 179.84)"><tspan class="cls-14"><tspan x="0" y="0">Calcium</tspan></tspan><tspan class="cls-15"><tspan x="10.62" y="37.17">2.46</tspan></tspan></text>
+      </g>
+      <g>
+        <path class="cls-10" d="m702.07,141.48c-10.36-9.29-30.51-27.67-34.82-33.82-11.44,11.44-22.45,23.36-34.84,33.81-10.26,8.66-18.58,17.98-22.84,31-1.99,6.08-2.99,12.47-2.99,18.87,0,33.99,27.96,61.46,62.13,60.65,32.59-.77,59-27.66,59.21-60.26.13-19.76-9.2-37.34-23.72-48.51-.73-.56-1.44-1.13-2.13-1.75Z"/>
+        <text class="cls-17" transform="translate(610.07 179.84)"><tspan class="cls-14"><tspan x="0" y="0">Magnesium</tspan></tspan><tspan class="cls-15"><tspan x="26.58" y="37.17">3.37</tspan></tspan></text>
+      </g>
+      <g>
+        <path class="cls-5" d="m846.65,141.48c-10.36-9.29-30.51-27.67-34.82-33.82-11.44,11.44-22.45,23.36-34.84,33.81-10.26,8.66-18.58,17.98-22.84,31-1.99,6.08-2.99,12.47-2.99,18.87,0,33.99,27.96,61.46,62.13,60.65,32.59-.77,59-27.66,59.21-60.26.13-19.76-9.2-37.34-23.72-48.51-.73-.56-1.44-1.13-2.13-1.75Z"/>
+        <text class="cls-17" transform="translate(777.9 179.84)"><tspan class="cls-14"><tspan x="0" y="0">Nitrate</tspan></tspan><tspan class="cls-15"><tspan x="12.15" y="37.17">1.6</tspan></tspan></text>
+      </g>
+      <g>
+        <path class="cls-6" d="m991.24,141.48c-10.36-9.29-30.51-27.67-34.82-33.82-11.44,11.44-22.45,23.36-34.84,33.81-10.26,8.66-18.58,17.98-22.84,31-1.99,6.08-2.99,12.47-2.99,18.87,0,33.99,27.96,61.46,62.13,60.65,32.59-.77,59-27.66,59.21-60.26.13-19.76-9.2-37.34-23.72-48.51-.73-.56-1.44-1.13-2.13-1.75Z"/>
+        <text class="cls-17" transform="translate(902.82 179.84)"><tspan class="cls-14"><tspan x="0" y="0">Potassium</tspan></tspan><tspan class="cls-15"><tspan x="22.99" y="37.17">2.58</tspan></tspan></text>
+      </g>
+    </g>
+    <g>
+      <g>
+        <path class="cls-8" d="m484.76,294.54c-10.36-9.29-30.51-27.67-34.82-33.82-11.44,11.44-22.45,23.36-34.84,33.81-10.26,8.66-18.58,17.98-22.84,31-1.99,6.08-2.99,12.47-2.99,18.87,0,33.99,27.96,61.46,62.13,60.65,32.59-.77,59-27.66,59.21-60.26.13-19.76-9.2-37.34-23.72-48.51-.73-.56-1.44-1.13-2.13-1.75Z"/>
+        <text class="cls-17" transform="translate(389.36 332.9)"><tspan class="cls-14"><tspan x="0" y="0">Bicarbonate</tspan></tspan><tspan class="cls-15"><tspan x="43.9" y="37.17">49</tspan></tspan></text>
+      </g>
+      <g>
+        <path class="cls-7" d="m630.23,294.54c-10.36-9.29-30.51-27.67-34.82-33.82-11.44,11.44-22.45,23.36-34.84,33.81-10.26,8.66-18.58,17.98-22.84,31-1.99,6.08-2.99,12.47-2.99,18.87,0,33.99,27.96,61.46,62.13,60.65,32.59-.77,59-27.66,59.21-60.26.13-19.76-9.2-37.34-23.72-48.51-.73-.56-1.44-1.13-2.13-1.75Z"/>
+        <text class="cls-17" transform="translate(552.8 332.9)"><tspan class="cls-14"><tspan x="0" y="0">Chloride</tspan></tspan><tspan class="cls-15"><tspan x="20.83" y="37.17">6.8</tspan></tspan></text>
+      </g>
+      <g>
+        <path class="cls-9" d="m774.81,294.54c-10.36-9.29-30.51-27.67-34.82-33.82-11.44,11.44-22.45,23.36-34.84,33.81-10.26,8.66-18.58,17.98-22.84,31-1.99,6.08-2.99,12.47-2.99,18.87,0,33.99,27.96,61.46,62.13,60.65,32.59-.77,59-27.66,59.21-60.26.13-19.76-9.2-37.34-23.72-48.51-.73-.56-1.44-1.13-2.13-1.75Z"/>
+        <text class="cls-17" transform="translate(712.36 332.9)"><tspan class="cls-14"><tspan x="0" y="0">Silica</tspan></tspan><tspan class="cls-15"><tspan x="-2.98" y="37.17">17.7</tspan></tspan></text>
+      </g>
+      <g>
+        <path class="cls-11" d="m919.39,294.54c-10.36-9.29-30.51-27.67-34.82-33.82-11.44,11.44-22.45,23.36-34.84,33.81-10.26,8.66-18.58,17.98-22.84,31-1.99,6.08-2.99,12.47-2.99,18.87,0,33.99,27.96,61.46,62.13,60.65,32.59-.77,59-27.66,59.21-60.26.13-19.76-9.2-37.34-23.72-48.51-.73-.56-1.44-1.13-2.13-1.75Z"/>
+        <text class="cls-17" transform="translate(834.21 332.9)"><tspan class="cls-14"><tspan x="0" y="0">Sulphates</tspan></tspan><tspan class="cls-15"><tspan x="20.01" y="37.17">40.8</tspan></tspan></text>
+      </g>
+    </g>
+    <g>
+      <path class="cls-12" d="m214.2,175.2c-21.6-19.38-63.63-57.7-72.62-70.54-23.86,23.86-46.83,48.73-72.66,70.51-21.41,18.06-38.74,37.5-47.63,64.66-4.15,12.68-6.24,26.01-6.24,39.35,0,70.89,58.31,128.17,129.58,126.49,67.97-1.6,123.04-57.68,123.48-125.67.26-41.21-19.19-77.88-49.48-101.17-1.52-1.17-3.01-2.36-4.43-3.64Z"/>
+      <g>
+        <text class="cls-3" transform="translate(40.94 316.92)"><tspan x="0" y="0">SODIUM</tspan></text>
+        <text class="cls-4" transform="translate(101.46 247.41)"><tspan x="0" y="0">0%</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
