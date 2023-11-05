@@ -10,12 +10,8 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/gfp_logo-removebg.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -27,85 +23,118 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
   <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
-  
+
 </head>
 
 <body>
   <script src="header.js"></script>
-  <!-- ======= Hero Section ======= -->
-  <section id="home" class="hero">
-    <div class="container position-relative">
-      <div class="row gy-5" data-aos="fade-in">
-        <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center text-center text-lg-start">
-          <h2>Slide show ตรงนี้</h2>
-          <p>Sed autem laudantium dolores. Voluptatem itaque ea consequatur eveniet. Eum quas beatae cumque eum quaerat.</p>
-          <div class="d-flex justify-content-center justify-content-lg-start">
-            <a href="#about" class="btn-get-started">Get Started</a>
-            <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
-          </div>
-        </div>
-        <div class="col-lg-6 order-1 order-lg-2">
-          <img src="assets/img/hero-img.svg" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="100">
-        </div>
+  <!-- ======= Slide show Section ======= -->
+  <section id="home" class="slideshow">
+    <div class="slideshow-container">
+      <div class="mySlides slideLeft">
+        <img src="assets/img/slideshow/slide1.jpg" style="width:100%">
+        <a href="#product"><div class="textSlide"><button class="slide1">รายละเอียดคลิก</button></div></a>
       </div>
-    </div>
 
+      <div class="mySlides slideLeft">
+        <img src="assets/img/slideshow/slide2.jpg" style="width:100%">
+        <a href="#product"><div class="textSlide"><button class="slide2">รายละเอียดคลิก</button></div></a>
+      </div>
+
+      <div class="mySlides slideLeft">
+        <img src="assets/img/slideshow/slide3.jpg" style="width:100%">
+        <a href="#product"><div class="textSlide"><button class="slide3">รายละเอียดคลิก</button></div></a>
+      </div>
+
+      <div class="mySlides slideLeft">
+        <img src="assets/img/slideshow/slide4.jpg" style="width:100%">
+        <a href="#product"><div class="textSlide"><button class="slide4">รายละเอียดคลิก</button></div></a>
+      </div>
+
+    </div>
     </div>
   </section>
-  <!-- End Hero Section -->
+  <!-- slide show Section -->
+  <script>
+    let slideIndex = 0;
+    showSlides();
 
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) { slideIndex = 1 }
+      slides[slideIndex - 1].style.display = "block";
+      setTimeout(showSlides, 5000); // Change image every 2 seconds
+    }
+  </script>
   <main id="main">
 
     <!-- ======= About Us Section ======= -->
-    <section id="about" class="about sections-bg-yellow">
-      <div class="container" data-aos="fade-up">
+    <section id="about" class="about sections-bg-yellow-color">
+      <div class="container mt-4" data-aos="fade-up">
 
-        <div class="section-header">
-            <h2 id="section-about-h1"></h2>
+        <div class="section-header mt-2">
+          <h2 id="section-about-h1"></h2>
         </div>
 
-        <div class="row gy-4 section-paragraph">
-          <div class="col-lg-6">
-            <h3>รูป1</h3>
+        <div class="row section-paragraph">
+          <div class="col-lg-6 col-md-6 centered-element-l">
+            <img src="assets/img/about1.png" class="img-fluid" alt="">
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-6 col-md-6 centered-element-r">
             <div class="content ps-0 ps-lg-5">
-                <p id="section-about-p1"></p>
+              <p id="section-about-p1"></p>
             </div>
           </div>
         </div>
-        <div class="row gy-4 section-paragraph">
-            <div class="col-lg-6">
-              <h3>รูป2</h3>
+        <div class="row section-paragraph-sm">
+          <div class="col-lg-6 col-md-6 centered-element-l">
+            <img src="assets/img/about2.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 col-md-6 centered-element-r">
+            <div class="content ps-0 ps-lg-5">
+              <h3 id="section-about-h2"></h3>
+              <p id="section-about-p2"></p>
             </div>
-            <div class="col-lg-6">
-              <div class="content ps-0 ps-lg-5">
-                <h3 id="section-about-h2"></h3>
-                <p id="section-about-p2"></p>
-              </div>
-            </div>
+          </div>
         </div>
 
-        <div class="section-header">
-            <h2 id="section-about-h3"></h2>
-            <p id="section-about-p3"></p>
-            <p>รูป3</p>
-            <p>รูป Cert GMP, HACCP, Hallal, kosher</p>
+        <div class="section-header mt-1" data-aos="fade-up" data-aos-delay="100">
+          <h1 id="section-about-h3"></h1>
+          <p id="section-about-p3"></p>
+        </div>
+        <div class="text-center" data-aos="fade-up" data-aos-delay="100">
+          <span class="text-center"><img src="assets/img/about3.png" class="img-break" alt=""></span>
+        </div>
+        <div class="img-inline text-center" data-aos="fade-up" data-aos-delay="100">
+          <span><img src="assets/img/cert_gmp.png" alt=""></span>
+          <span><img src="assets/img/cert_haccp.png" alt=""></span>
+          <span><img src="assets/img/cert_halal.png" alt=""></span>
+          <span><img src="assets/img/cert_kosher.png" alt=""></span>
         </div>
 
-        <div class="row gy-4">
-            <div class="col-lg-6">
-              <h3>รูป2</h3>
+        <div class="row gy-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-6 col-md-6 img-center">
+            <img src="assets/img/about4.png" class="img-break" alt="">
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <div class="content ps-0 ps-lg-5">
+              <h2 id="section-why-us-h"></h2>
+              <p id="section-why-us-l"></p>
+              <p id="section-why-us-p"></p>
             </div>
-            <div class="col-lg-6">
-              <div class="content ps-0 ps-lg-5">
-                <h2 id="section-why-us-h"></h2>
-                <p id="section-why-us-l"></p>
-                <p id="section-why-us-p"></p>
-              </div>
-            </div>
+          </div>
         </div>
 
+      </div>
+    </section><!-- End About Us Section -->
+
+    <section id="blank" class=" sections-bg-yellow-bottom">
+      <div class="container" data-aos="fade-up">
       </div>
     </section><!-- End About Us Section -->
 
@@ -113,25 +142,29 @@
     <section id="product" class="product">
       <div class="container" data-aos="fade-up">
         <div class="section-header">
-            <h2 id="section-product-h"></h2>
+          <h2 id="section-product-h"></h2>
         </div>
 
         <div class="row gy-4">
           <div class="col-sm-3 col-lg-3 text-center">
-            <img src="assets/img/product1.png" class="img-fluid" alt="">
-            <button id="product_lily_h"></button>
+            <a href="lily.html">
+              <img src="assets/img/product1.png" class="img-fluid" alt="">
+              <button id="product_lily_h"></button></a>
           </div>
           <div class="col-sm-3 col-lg-3 text-center">
-            <img src="assets/img/product1.png" class="img-fluid" alt="">
-            <button id="product_kuru_h"></button>
+            <a href="kuru.html">
+              <img src="assets/img/product2.png" class="img-fluid" alt="">
+              <button id="product_kuru_h"></button></a>
           </div>
           <div class="col-sm-3 col-lg-3 text-center">
-            <img src="assets/img/product1.png" class="img-fluid" alt="">
-            <button id="product_tharn_h"></button>
+            <a href="tharn.html">
+              <img src="assets/img/product3.png" class="img-fluid" alt="">
+              <button id="product_tharn_h"></button></a>
           </div>
           <div class="col-sm-3 col-lg-3 text-center">
-            <img src="assets/img/product1.png" class="img-fluid" alt="">
-            <button id="product_herb_h"></button>
+            <a href="herb.html">
+              <img src="assets/img/product4.png" class="img-fluid" alt="">
+              <button id="product_herb_h"></button></a>
           </div>
         </div>
 
@@ -139,114 +172,25 @@
     </section><!-- Product Section -->
 
     <!-- ======= Call To Action Section ปิดไปก่อน เดี๋ยวให้ ลูกค้าเลือก ======= -->
-    <!-- <section id="video" class="call-to-action">
+    <section id="video" class="call-to-action">
       <div class="container text-center" data-aos="zoom-out">
-        <a href="assets/video/gfp.mp4" class="glightbox play-btn"></a>
-        <h3>Video</h3>
+        <a href="https://www.youtube.com/watch?v=nqnZzyXNyZQ" class="glightbox play-btn"></a>
       </div>
     </section><!-- End Call To Action Section -->
 
-    <section id="video">
-      <div class="container text-center">
-          <video controls autoplay="" muted="" loop="" id="myVideo"  class="videoInsert">
-            <source src="assets/video/gfp.mp4" type="video/mp4">
-          </video>
-      </div>
-    </section>
-
-    <!-- ======= Picture for lily Section ======= -->
-    <section id="picture" class="clients">
-        <div class="container" data-aos="zoom-out">
-            <div class="clients-slider swiper">
-              <div class="swiper-wrapper align-items-center">
-                <div class="swiper-slide"><img src="assets/img/clients/client1.png" class="img-fluid" alt=""></div>
-                <div class="swiper-slide"><img src="assets/img/clients/client2.png" class="img-fluid" alt=""></div>
-                <div class="swiper-slide"><img src="assets/img/clients/client3.png" class="img-fluid" alt=""></div>
-                <div class="swiper-slide"><img src="assets/img/clients/client4.png" class="img-fluid" alt=""></div>
-              </div>
-            </div>
-        </div>
-    </section><!-- End Clients Section -->
-
-    <!-- ======= Our Services Section ======= -->
-    <section id="services" class="services sections-bg-yellow">
-      <div class="container" data-aos="fade-up">
-        <div class="section-header">
-            <h2 id="section-service-h"></h2>
-            <p id="section-service-p"></p>
-        </div>
-
-        <div class="row gy-4 desktop-display" data-aos="fade-up" data-aos-delay="100">
-          <div class="col-lg-4 col-md-4 col-sm-4">
-            <div class="service-item  position-relative text-center">
-              <img src="assets/img/oem1.png" class="img-fluid" alt="">
-                <button>STEP 1</button>
-                <h3 id="section-service-s1-h"></h3>
-                <p id="section-service-s1-p"></p>
-            </div>
-          </div><!-- End Service Item -->
-          <div class="col-lg-4 col-md-4 col-sm-4">
-            <div class="service-item position-relative text-center">
-              <img src="assets/img/oem2.png" class="img-fluid" alt="">
-                <button>STEP 2</button>
-                <h3 id="section-service-s2-h"></h3>
-                <p id="section-service-s2-p"></p>
-            </div>
-          </div><!-- End Service Item -->
-          <div class="col-lg-4 col-md-4 col-sm-4">
-            <div class="service-item position-relative text-center">
-              <img src="assets/img/oem3.png" class="img-fluid" alt="">
-                <button>STEP 3</button>
-                <h3 id="section-service-s3-h"></h3>
-                <p id="section-service-s3-p"></p>
-            </div>
-          </div><!-- End Service Item -->
-        </div>
-        
-        <div class="row gy-4 mobile-display" data-aos="fade-up" data-aos-delay="100">
-          <div class="mobile-display">
-            <span><img src="assets/img/oem1.png"></span>
-            <span><img src="assets/img/oem2.png"></span>
-            <span><img src="assets/img/oem3.png"></span>
-          </div><!-- End Service Item -->
-        </div>
-      </div>
-    </section><!-- End Our Services Section -->
-
-    <!-- ======= About Us Section ======= -->
-    <section id="oem" class="about">
-      <div class="container" data-aos="fade-up">
-        <div class="row gy-4">
-          <div class="col-lg-6">
-            <img src="assets/img/bottle.png" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-6">
-            <div class="content ps-0 ps-lg-5">
-                <h3 id="section-oem-h"></h3>
-                <p id="section-oem-p"></p>
-                <div id="section-oem-l"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- End About Us Section -->
-
-
-    <!-- ======= Testimonials Section ======= -->
-    <section id="partner" class="testimonials">
+    <!-- ======= Picture slide Section ======= -->
+    <section id="Picture" class="testimonials mt-5">
       <div class="container" data-aos="fade-up">
 
-        <div class="section-header">
-          <h2>Our Partner</h2>
-        </div>
-
-        <div class="slides-4 swiper" data-aos="fade-up" data-aos-delay="100">
+        <div class="slides-3 swiper" data-aos="fade-up" data-aos-delay="100">
           <div class="swiper-wrapper">
 
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
-                  <img src="assets/img/clients/client1.png" class="img-fluid" alt="">
+                  <div class="d-flex align-items-center">
+                    <img src="assets/img/pic1.png" class="testimonial-img flex-shrink-0" alt="">
+                  </div>
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -254,7 +198,9 @@
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
-                  <img src="assets/img/clients/client2.png" class="img-fluid" alt="">
+                  <div class="d-flex align-items-center">
+                    <img src="assets/img/pic2.png" class="testimonial-img flex-shrink-0" alt="">
+                  </div>
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -262,18 +208,13 @@
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
-                  <img src="assets/img/clients/client3.png" class="img-fluid" alt="" width="150px">
+                  <div class="d-flex align-items-center">
+                    <img src="assets/img/pic3.png" class="testimonial-img flex-shrink-0" alt="">
+                  </div>
                 </div>
               </div>
             </div><!-- End testimonial item -->
 
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                  <img src="assets/img/clients/client4.png" class="img-fluid" alt="" width="150px">
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
 
           </div>
           <div class="swiper-pagination"></div>
@@ -282,15 +223,99 @@
       </div>
     </section><!-- End Testimonials Section -->
 
+
+    <!-- ======= Our Services Section ======= -->
+    <section id="services" class="services sections-bg-yellow">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2 id="section-service-h"></h2>
+          <p id="section-service-p"></p>
+        </div>
+
+        <div class="row gy-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-4 col-md-4 col-sm-4 display-inline">
+            <span><img src="assets/img/oem1.png" class="img-fluid"></span>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 display-inline">
+            <span><img src="assets/img/oem2.png" class="img-fluid"></span>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 display-inline">
+            <span><img src="assets/img/oem3.png" class="img-fluid"></span>
+          </div>
+        </div>
+
+        <div class="row gy-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="service-item  position-relative text-center">
+              <button>STEP 1</button>
+              <h3 id="section-service-s1-h"></h3>
+              <p id="section-service-s1-p"></p>
+            </div>
+          </div><!-- End Service Item -->
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="service-item position-relative text-center">
+              <button>STEP 2</button>
+              <h3 id="section-service-s2-h"></h3>
+              <p id="section-service-s2-p"></p>
+            </div>
+          </div><!-- End Service Item -->
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="service-item position-relative text-center">
+              <button>STEP 3</button>
+              <h3 id="section-service-s3-h"></h3>
+              <p id="section-service-s3-p"></p>
+            </div>
+          </div><!-- End Service Item -->
+        </div>
+      </div>
+    </section><!-- End Our Services Section -->
+
+    <!-- ======= About Us Section ======= -->
+    <section id="oem" class="oem">
+      <div class="container" data-aos="fade-up">
+        <div class="row gy-4">
+          <div class="col-lg-6 col-md-6x">
+            <img src="assets/img/bottle.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <div class="content ps-0 ps-lg-5">
+              <h2 id="section-oem-h"></h2>
+              <p id="section-oem-p"></p>
+              <div id="section-oem-l"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End About Us Section -->
+
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="partner" class="partner">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Our Partner</h2>
+        </div>
+
+        <div class="img-inline text-center" data-aos="zoom-out" data-aos-delay="100">
+          <span><img src="assets/img/clients/client1.png" alt=""></span>
+          <span><img src="assets/img/clients/client2.png" alt=""></span>
+          <span><img src="assets/img/clients/client3.png" alt=""></span>
+          <span><img src="assets/img/clients/client4.png" alt=""></span>
+        </div>
+      </div>
+    </section><!-- End Testimonials Section -->
+
   </main><!-- End #main -->
   <script src="footer.js"></script>
 
 
-  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
   <div id="preloader"></div>
 
-    
+
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
@@ -304,6 +329,7 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
   <script src="text.js"></script>
+  <script src="mapping.js"></script>
 </body>
 
 </html>

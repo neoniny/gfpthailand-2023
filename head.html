@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Grand Food Processing (Thailand)</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/gfp_logo-removebg.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="main.css" rel="stylesheet">
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+
+</head>
+
+<body>
+  <!-- ======= Header ======= -->
+  <header id="header" class="header d-flex align-items-center">
+
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <div class="logo d-flex">
+        <a href="index.html"><img src="assets/icon/gfp_top.svg" alt=""></a>
+      </div>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="`,host,`#home"><span id="menu_home"></span></a></li>
+          <li><a href="`,host,`#about"><span id="menu_about"></span></a></li>
+          <li class="dropdown"><a href="`,host,`#product"><span id="menu_product"></span></a>
+            <ul>
+              <li><a href="`,host,`lily"><span id="menu_product_1"></span></a></li>
+              <li><a href="`,host,`kuru"><span id="menu_product_2"></span></a></li>
+              <li><a href="`,host,`tharn"><span id="menu_product_3"></span></a></li>
+              <li><a href="`,host,`herb"><span id="menu_product_4"></span></a></li>
+            </ul>
+          </li>
+          <li><a href="`,host,`#services"><span id="menu_service"></span></a></li>
+          <li><a href="`,host,`#contact"><span id="menu_contact"></span></a></li>
+          <li><a href="#"><span id="menu_online"></span></a></li>
+          <div id="onlineLinkTopM" class="onlineLinkTopM" style="display: none;">
+            <a href="https://www.facebook.com/lilyfreshsmoothie" target="_blank">Facebook</a>
+            <a href="https://shopee.co.th/lilyfresh" target="_blank">Shopee</a>
+            <a href="https://www.lazada.co.th/shop/lily-fresh-smoothie" target="_blank">Lazada</a>
+            <a href="https://shop.line.me/@280untig" target="_blank">Line</a>
+            <a href="https://www.instagram.com/lilyfreshsmoothie" target="_blank">IG</a>
+            <a href="https://www.tiktok.com/@lilyfreshsmoothie" target="_blank">Tiktok</a>
+            <a href="#home">Website</a>
+            <a href="https://www.facebook.com/tharnmineralwater" target="_blank">Tharn</a>
+          </div>
+        </ul>
+      </nav><!-- .navbar -->
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
+    </div>
+  </header><!-- End Header -->
+  <!-- End Header -->
+  <div id="onlineLinkTop" class="onlineLinkTop" style="display: none;">
+    <h1>ร้านค้าออนไลน์</h1>
+    <div class="align-items-center justify-content-between">
+      <img src="assets/svg/shopee_h.svg" class="shopee">
+      <img src="assets/svg/laz_h.svg" class="laz">
+      <img src="assets/svg/fb_h.svg" class="fb">
+      <img src="assets/svg/line_h.svg" class="line">
+    </div>
+  </div>
+  <script>
+    const toggleOnlineShopBnt = document.getElementById(`menu_online`);
+    const onlineLinkTop = document.getElementById(`onlineLinkTop`);
+    const onlineLinkTopM = document.getElementById(`onlineLinkTopM`);
+    if (toggleOnlineShopBnt) {
+      toggleOnlineShopBnt.addEventListener('click', function () {
+        console.log("click!!")
+        if (window.innerWidth > 799) {
+          if (onlineLinkTop.style.display === "none") {
+            onlineLinkTop.style.display = "block";
+          } else {
+            onlineLinkTop.style.display = "none";
+          }
+        }else{
+          if (onlineLinkTopM.style.display === "none") {
+            onlineLinkTopM.style.display = "block";
+          } else {
+            onlineLinkTopM.style.display = "none";
+          }
+        }
+      })
+    }
+
+  </script>
+
+  <main id="main">
+    <img src="assets/img/slideshow/slide1.jpg" class="img-fluid">
+  </main><!-- End #main -->
+  <script src="footer.js"></script>
+
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="text.js"></script>
+  <script src="mapping.js"></script>
+</body>
+
+</html>

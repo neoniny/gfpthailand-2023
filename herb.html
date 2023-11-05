@@ -31,39 +31,20 @@
   <script src="header.js"></script>
 
   <main id="main">
-    <section id="product" class="intro headerkuru">
-      <div class="container" data-aos="zoom-out">
+    <section id="product" class="intro intro-herb">
+      <div class="container" data-aos="fade-up">
         <div class="section-header">
-          <h2 id="product_kuru_h"></h2>
+          <h2 id="herb_h"></h2>
           <p>
-            <span><img src="assets/icon/vitc.svg"/></span><span id="kuru_p1"></span>
-            <span><img src="assets/icon/lesssugar.svg"/></span><span id="kuru_p2"></span>
-            <span><img src="assets/icon/honey.svg"/></span><span id="kuru_p3"></span>
+            <span><img src="assets/icon/check.svg"/></span><span id="herb_p1"></span>
+            <span><img src="assets/icon/check.svg"/></span><span id="herb_p2"></span>
+            <span><img src="assets/icon/check.svg"/></span><span id="herb_p3"></span>
           </p>
         </div>
-        <div class="row kuru">
-          <div class="col-sm-3 text-center">
-            <img src="assets/img/kuru/kuru1.png" class="img-fluid" alt="">
-            <button id="kuru_b1" class="kuru1bt"></button>
-          </div>
-          <div class="col-sm-3 text-center">
-            <img src="assets/img/kuru/kuru2.png" class="img-fluid" alt="">
-            <button id="kuru_b2" class="kuru2bt"></button>
-          </div>
-          <div class="col-sm-3 text-center">
-            <img src="assets/img/kuru/kuru3.png" class="img-fluid" alt="">
-            <button id="kuru_b3" class="kuru3bt"></button>
-            
-          </div>
-          <div class="col-sm-3 text-center">
-            <img src="assets/img/kuru/kuru4.png" class="img-fluid" alt="">
-            <button id="kuru_b4" class="kuru4bt"></button>
-          </div>
-        </div>
+
       </div>
     </section>
-
-    <div id="allkuru" class="productRender">
+    <div id="allherb" class="productRender">
       <!-- This is where the generated content will be inserted -->
     </div>
 
@@ -77,12 +58,14 @@
             <button id="product_tharn_h"></button></a>
           </div>
           <div class="col-md-4 text-center product-item">
-            <a href="lily"><img src="assets/img/product1.png" class="img-fluid" alt="">
+            <a href="lily">
+            <img src="assets/img/product1.png" class="img-fluid" alt="">
             <button id="product_lily_h"></button></a>
           </div>
           <div class="col-md-4 text-center product-item">
-            <a href="herb"><img src="assets/img/product4.png" class="img-fluid" alt="">
-            <button id="product_herb_h"></button></a>
+            <a href="kuru">
+            <img src="assets/img/product2.png" class="img-fluid" alt="">
+            <button id="product_kuru_h"></button></a>
           </div>
         </div>
       </div>
@@ -105,23 +88,16 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
   <script src="text.js"></script>
   <script src="productRender.js"></script>
   <script src="toggle.js"></script>
   <script>
-      setupToggleKuru(1);
-  setupToggleKuru(2);
-  setupToggleKuru(3);
-  setupToggleKuru(4);
-  // Call the function for each container
-repositionContent(992,"kuru1");
-repositionContent(992,"kuru2");
-repositionContent(992,"kuru3");
-repositionContent(992,"kuru4");
+      setupToggleHerb(1);
+      setupToggleHerb(2);
+      repositionContent(992,"herb1");
+repositionContent(992,"herb2");
   </script>
   <script src="mapping.js"></script>
-
 
 </body>
 

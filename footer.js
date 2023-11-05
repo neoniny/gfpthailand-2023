@@ -1,33 +1,38 @@
+host = "https://www.gfpthailand.com/"
 document.write(`
 <!-- ======= Footer ======= -->
 <footer id="footer" class="footer">
 
   <div class="container">
     <div class="row gy-4">
-      <div class="col-lg-6 col-md-12 footer-info">
-          <a href="index.html" class="logo d-flex align-items-center">
-          <span id="section-contact-h"></span>
+      <div class="col-lg-6 col-md-6 col-sm-6 footer-info">
+          <a href="index.html">
+          <h2 id="section-contact-h"></h2>
           </a>
-          <p id="section-contact-address"></p>
-          <p id="section-contact-email"></p>
-          <p id="section-contact-telnum"></p>
+          <p id="section-contact-address">
+          <p><span class="iconlogo"><img src="assets/icon/mail.svg"/></span><span id="section-contact-email"></span></p>
+          <p><span class="iconlogo"><img src="assets/icon/tel.svg"/></span><span id="section-contact-telnum"></span></p>
       </div>
 
-      <div class="col-lg-2 col-6 footer-links">
-          <ul>
-              <li id="menu-about"><a href="#"></a></li>
-              <li id="menu-product"><a href="#"></a></li>
-              <li id="menu-service"><a href="#"></a></li>
-            </ul>
+      <div class="col-lg-3 col-md-3 col-sm-6 footer-links mt-5 text-center">
+        <div class="menu-foote mt-5">
+            <p><a href="`,host,`#about"><span id="menu-about"/></a></p>
+            <p><a href="`,host,`#product"><span id="menu-product"/></a></p>
+            <p><a href="`,host,`#service"><span id="menu-service"/></a></p>
+        </div>
       </div>
 
-      <div class="col-lg-2 col-6 footer-links">
-        <h4>Our Services</h4>
-        <div class="social-links d-flex mt-4">
-          <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-          <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      <div class="col-lg-3 col-md-3 col-sm-12 footer-links">
+        <div class="iconline">
+          <h4 id="onlineShop_h"></h4>
+          <img src="assets/img/line-qr.png"/>
+        </div>
+        <div class="sociallogo mt-3">
+          <a href="https://www.facebook.com/lilyfreshsmoothie" target="_blank"><img src="assets/icon/fb.png"/></a>
+          <a href="https://www.instagram.com/lilyfreshsmoothie" target="_blank"><img src="assets/icon/ig.svg"/></a>
+          <a href="https://shopee.co.th/lilyfresh" target="_blank"><img src="assets/icon/shopee.svg"/></a>
+          <a href="https://www.lazada.co.th/shop/lily-fresh-smoothie" target="_blank"><img src="assets/icon/laz.svg"/></a>
+          <a href="#"><img src="assets/icon/myshop.svg"/></a>
         </div>
       </div>
 

@@ -31,42 +31,40 @@
   <script src="header.js"></script>
 
   <main id="main">
-    <section id="product" class="intro headerkuru">
-      <div class="container" data-aos="zoom-out">
+    <section id="product" class="intro">
+      <div class="container" data-aos="fade-up">
         <div class="section-header">
-          <h2 id="product_kuru_h"></h2>
+          <h2 id="lily_h"></h2>
           <p>
-            <span><img src="assets/icon/vitc.svg"/></span><span id="kuru_p1"></span>
-            <span><img src="assets/icon/lesssugar.svg"/></span><span id="kuru_p2"></span>
-            <span><img src="assets/icon/honey.svg"/></span><span id="kuru_p3"></span>
+            <span><img src="assets/icon/nochem.svg"/></span><span id="lily_p1"></span>
+            <span><img src="assets/icon/allfruit.svg"/></span><span id="lily_p2"></span>
+            <span><img src="assets/icon/nosugar.svg"/></span><span id="lily_p3"></span>
           </p>
         </div>
-        <div class="row kuru">
+        <div class="row lily  mb-3">
           <div class="col-sm-3 text-center">
-            <img src="assets/img/kuru/kuru1.png" class="img-fluid" alt="">
-            <button id="kuru_b1" class="kuru1bt"></button>
+            <img src="assets/img/lily/lily1.png" class="img-fluid" alt="">
+            <button id="lily_b1" class="lily1bt"></button>
           </div>
           <div class="col-sm-3 text-center">
-            <img src="assets/img/kuru/kuru2.png" class="img-fluid" alt="">
-            <button id="kuru_b2" class="kuru2bt"></button>
+            <img src="assets/img/lily/lily2.png" class="img-fluid" alt="">
+            <button id="lily_b2" class="lily2bt"></button>
           </div>
           <div class="col-sm-3 text-center">
-            <img src="assets/img/kuru/kuru3.png" class="img-fluid" alt="">
-            <button id="kuru_b3" class="kuru3bt"></button>
+            <img src="assets/img/lily/lily3.png" class="img-fluid" alt="">
+            <button id="lily_b3" class="lily3bt"></button>
             
           </div>
           <div class="col-sm-3 text-center">
-            <img src="assets/img/kuru/kuru4.png" class="img-fluid" alt="">
-            <button id="kuru_b4" class="kuru4bt"></button>
+            <img src="assets/img/lily/lily4.png" class="img-fluid" alt="">
+            <button id="lily_b4" class="lily4bt"></button>
           </div>
         </div>
       </div>
     </section>
-
-    <div id="allkuru" class="productRender">
+    <div id="alllily" class="productRender">
       <!-- This is where the generated content will be inserted -->
     </div>
-
     <section id="other-product" class="product">
       <div class="container text-center" data-aos="fade-up">
         <p id="otherProduct_p"></p>
@@ -77,11 +75,13 @@
             <button id="product_tharn_h"></button></a>
           </div>
           <div class="col-md-4 text-center product-item">
-            <a href="lily"><img src="assets/img/product1.png" class="img-fluid" alt="">
-            <button id="product_lily_h"></button></a>
+            <a href="kuru">
+            <img src="assets/img/product2.png" class="img-fluid" alt="">
+            <button id="product_kuru_h"></button></a>
           </div>
           <div class="col-md-4 text-center product-item">
-            <a href="herb"><img src="assets/img/product4.png" class="img-fluid" alt="">
+            <a href="herb">
+            <img src="assets/img/product4.png" class="img-fluid" alt="">
             <button id="product_herb_h"></button></a>
           </div>
         </div>
@@ -105,23 +105,22 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
   <script src="text.js"></script>
   <script src="productRender.js"></script>
   <script src="toggle.js"></script>
   <script>
-      setupToggleKuru(1);
-  setupToggleKuru(2);
-  setupToggleKuru(3);
-  setupToggleKuru(4);
-  // Call the function for each container
-repositionContent(992,"kuru1");
-repositionContent(992,"kuru2");
-repositionContent(992,"kuru3");
-repositionContent(992,"kuru4");
+setupTogglelily(1);
+setupTogglelily(2);
+setupTogglelily(3);
+setupTogglelily(4);
+
+// Call the function for each container
+repositionContent(992,"lily1");
+repositionContent(992,"lily2");
+repositionContent(992,"lily3");
+repositionContent(992,"lily4");
   </script>
   <script src="mapping.js"></script>
-
 
 </body>
 
