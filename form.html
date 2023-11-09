@@ -1,0 +1,99 @@
+<form action="http://www.SnapHost.com/captcha/send.aspx" id="ContactUsCaptchaWebForm" method="post" onsubmit="return ValidateForm(this);">
+    <input name="skip_WhereToSend" type="hidden" value="neoniny@gmail.com" />
+    <input name="skip_SnapHostID" type="hidden" value="ZTG5DUBJPF9E" />
+    <input name="skip_WhereToReturn" type="hidden" value="http://127.0.0.1:8080/contact.html#overlay" />
+    <input name="skip_Subject" type="hidden" value="Contact Us Form" />
+    <input name="skip_ShowUsersIp" type="hidden" value="1" />
+    <input name="skip_SendCopyToUser" type="hidden" value="1" />
+    <script type="text/javascript">
+        function ValidateForm(frm) {
+        if (frm.Name.value == "") {alert('Name is required.');frm.Name.focus();return false;}
+        if (frm.FromEmailAddress.value == "") {alert('Email address is required.');frm.FromEmailAddress.focus();return false;}
+        if (frm.FromEmailAddress.value.indexOf("@") < 1 || frm.FromEmailAddress.value.indexOf(".") < 1) {alert('Please enter a valid email address.');frm.FromEmailAddress.focus();return false;}
+        if (frm.Comments.value == "") {alert('Please enter comments or questions.');frm.Comments.focus();return false;}
+        if (frm.skip_CaptchaCode.value == "") {alert('Enter web form code.');frm.skip_CaptchaCode.focus();return false;}
+        return true; }
+        function ReloadCaptchaImage(captchaImageId) {
+        var obj = document.getElementById(captchaImageId);
+        var src = obj.src;
+        var date = new Date();
+        var pos = src.indexOf('&rad=');
+        if (pos >= 0) { src = src.substr(0, pos); }
+        obj.src = src + '&rad=' + date.getTime();
+        return false; }
+    </script>
+    <h4><?=$form_title?></h4>
+     <div class="form-group">
+        <label>Name</label>
+        <input class="form-control" name="Name" type="text" maxlength="60" placeholder="Name"/>
+    </div>
+    <div class="form-group">
+        <label>Email</label>
+        <input class="form-control" name="FromEmailAddress" type="text" maxlength="60" placeholder="Email"/>
+    </div>
+    <div class="form-group">
+        <label>Message</label>
+        <textarea class="form-control" name="Comments" rows="3" cols="40" placeholder="Message"></textarea>
+    </div>
+    <br/>
+    <div class="text-center">
+    <label><span class="text-form">Capcha:</span> </label>
+    <input name="skip_CaptchaCode" type="text" style="width:120px;" maxlength="6" required/>
+    <br>
+    <a href="http://www.snaphost.com/captcha/ReadyForms/ContactUsForm.aspx"><img id="CaptchaImage" alt="Contact Us form" title="HTML code for Contact Us form"
+    style="margin-left:20px;"
+    src="http://www.SnapHost.com/captcha/CaptchaImage.aspx?id=ZTG5DUBJPF9E&ImgType=2" /></a><br />
+    <a href="#" onclick="return ReloadCaptchaImage('CaptchaImage');">
+    <span style="font-size:12px;">reload image</span></a> </label><br />
+    <input name="skip_Submit" type="submit" value="Submit" class="btn btn-default btn-gfp-yellow full-width"/>
+    </form>
+
+
+
+
+    <!DOCTYPE html> 
+<html> 
+<head> 
+  <title>Send Mail</title> 
+  <script src= 
+    "https://smtpjs.com/v3/smtp.js"> 
+  </script> 
+  
+  <script type="text/javascript"> 
+    function sendEmail() { 
+      Email.send({ 
+        Host: "smtp.gmail.com", 
+        Username: "sender@email_address.com", 
+        Password: "Enter your password", 
+        To: 'receiver@email_address.com', 
+        From: "neoniny@gmail.com", 
+        Subject: "Sending Email using javascript", 
+        Body: "Well that was easy!!", 
+      }) 
+        .then(function (message) { 
+          alert("mail sent successfully") 
+        }); 
+    } 
+  </script> 
+</head> 
+  
+<body> 
+  <form method="post"> 
+    <input type="button" value="Send Email" 
+        onclick="sendEmail()" /> 
+  </form> 
+
+
+  <section id="contact" class="contact">
+    <a href="#overlay" id="open-overlay">Open Overlay</a>
+
+    <div id="overlay">
+        <a href="#" class="close">&times;</a>
+        <div style="height:20%"></div>
+        <h2 style="font-size:35px" class="text-center">ขอบคุณที่ติดต่อเรา เราจะติดต่อกลับโดยเร็วที่สุด</h2>
+    </div>
+    <div id="mask" onclick="document.location='#';"></div> <!-- the only javascript -->
+</section>
+
+</body> 
+</html>
